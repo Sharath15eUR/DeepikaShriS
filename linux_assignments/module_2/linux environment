@@ -1,0 +1,12 @@
+1. How can you know what is the secondary command prompt set your system ?
+   How can you change the secondary command prompt from the default to your username ?
+
+The secondary command prompt is determind by using the environment variable 'PS2'.To know the secondary command prompt,the command 'echo $PS2' can be used
+To change it to another username,it can be done by using 'PS2="username>"
+
+
+2. How can you ensure that the mv command (used for renaming a file) always asks for permission before overwriting an existing destination file ? 
+
+To ensure that the mv command asks for permission before overwriting an existing destination file,an alias that includes the -i option can be created. 
+the command 'alias mv='mv -1' can be used.
+

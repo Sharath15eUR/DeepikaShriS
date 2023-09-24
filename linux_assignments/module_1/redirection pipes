@@ -1,0 +1,4 @@
+2>> command can be used to to redirect the standard error to the particular file named error_file.
+it can be done by the command "wc -l aa11 2>>  error_log"
+
+this command will also append the error messages that are produced after the command is run.the >> operator appends output to a file, so 2>> appends stderr to the specified file. This ensures that all error messages are captured and appended to the error_log file without overwriting any existing content.

@@ -1,0 +1,7 @@
+All the processes both on system and user can be obtained by uisng the ps command
+"ps aux"
+All the processes can be viewed in multipage by using paper program "less"
+"ps aux | less"
+To store the output in a file > operator can be used along with the desired file name
+"ps aux > process_info"
+where process_info is the file name
