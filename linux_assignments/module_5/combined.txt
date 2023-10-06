@@ -1,0 +1,4 @@
+this is the content inside out_file.txt
+
+this is the content inside X_file.txt
+

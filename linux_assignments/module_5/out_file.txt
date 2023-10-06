@@ -1,0 +1,2 @@
+this is the content inside out_file.txt
+
