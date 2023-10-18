@@ -1,0 +1,13 @@
+   1) Commands are actually files containing programs, often written in C. How will you find out in which directory does  the file corresponding to the man command resides?
+'which' command can be used to find out the directory current command holds
+exmaple:
+which man
+>/usr/bin/man
+
+       2) How will you find out what is the use of the ps command
+  to find out the use of any command,man (manual) command can be used
+ to get a one line quick explanation of a command, 'whatis' command can be used
+ example
+ man ps
+ whatis ps
+ 
